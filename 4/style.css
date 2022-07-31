@@ -141,6 +141,13 @@ img {
   right: 0;
   top: 25vh;
 }
+.button-section  {
+ background-color: lightblue;
+ display: inline;
+ border: 2px solid black;
+ border-radius: 4px;
+ padding: 1vmin;
+}
 @media screen and (max-width: 1100px) {
   .left {
     position: fixed;
