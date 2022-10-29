@@ -1,0 +1,109 @@
+html {
+      background-color:  #0000b3;
+}
+body {
+background-color: blue;
+      color: white;
+      width: 45vw;
+      margin: auto;
+      padding: 2vmin;
+      border: 2vmin;
+      font-size: 1.6rem;
+  background-color: gray;
+  padding: 2vmin;
+}
+p {
+  opacity: 1.0 !important;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+h1 {
+     font-size: 3rem;
+}
+ul {
+    list-style-type: none;
+}
+img {
+  margin-top: 8vmin;
+  max-width: 40vw;
+  border-radius: 50%;
+  width: 30vmin;
+  height: 30vmin;
+}
+iframe {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF9F;
+	width: 100vmin;
+	height: 100vmin;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
+}
+ button:not(.dropdown) {
+        display: inline-block;
+        background-color: #7b38d8;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+	display: block;
+	margin-top: 8vmin;
+      }
+.left {
+  position: absolute;
+  left: 0;
+  top: 25vh;
+}
+
+.menu {
+   width: 2vmin; 
+   height: 2vmin; 
+    color: grey;
+ border: none;
+  cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  right: 10vmin;
+  top: 0px;
+  opacity: 0.7;
+}
+
+/* Hidden by Default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  right: 0;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
